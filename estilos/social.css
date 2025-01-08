@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
 
 * {
     margin: 0px;
@@ -15,15 +19,18 @@ img {
 
 }
 a {
-    display: block;
-    background-color: darkred;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    font-family: libre baskerville, Arial, Helvetica, sans-serif ;
+    font-size: 1.3em;
     font-weight: bolder;
+    display: block;
+    background: linear-gradient(to top, blue, lightblue);
+    color: white;
+    padding: 10px;
+    text-align: center;
     text-decoration: none;
 
 }
 a:hover {
-    background-color: red;
+    background: linear-gradient(to top, lightblue, blue);
+    color: white;
 }
