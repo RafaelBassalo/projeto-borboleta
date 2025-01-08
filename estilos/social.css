@@ -23,14 +23,15 @@ a {
     font-size: 1.3em;
     font-weight: bolder;
     display: block;
-    background: linear-gradient(to top, blue, lightblue);
+    background: linear-gradient(to top, royalblue , lightblue);
     color: white;
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    color: r;
 
 }
 a:hover {
-    background: linear-gradient(to top, lightblue, blue);
+    background: linear-gradient(to top, lightblue, royalblue);
     color: white;
 }
